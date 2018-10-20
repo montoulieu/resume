@@ -1,17 +1,17 @@
 <template>
-  <div class="job">
+  <div class="job border-bottom-green">
     <header class="d-flex align-items-center">
       <div class="job-info">
         <h4 class="d-inline-block text-green font-weight-black mr-2">{{ company }}</h4>
-        <h6 class="d-inline-block">{{ location }}</h6>
+        <h6 class="d-md-inline-block">{{ location }}</h6>
         <h5 class="font-weight-">{{ role }}</h5>
       </div>
-      <div v-if="startDate && endDate" class="employment-dates text-green ml-auto">
-        <span class="d-block">
-          {{ [startDate, "MMDDYYYY"] | moment("MMM YYYY") }}
-        </span>
+      <div v-if="startDate && endDate" class="employment-dates text-green text-center ml-auto">
         <span class="d-block">
           {{ [endDate, "MMDDYYYY"] | moment("MMM YYYY") }}
+        </span>
+        <span class="d-block">
+          {{ [startDate, "MMDDYYYY"] | moment("MMM YYYY") }}
         </span>
       </div>
     </header>
@@ -38,17 +38,6 @@ export default {
 <style lang="scss" scoped>
 $color-brand: #49b884;
 
-.job {
-  border-bottom: 2px solid $color-brand;
-
-  &:nth-child(1) {
-    padding-top: 0 !important
-  }
-
-  &:nth-last-child(1) {
-    border-bottom: 0;
-  }
-}
 .list-separators li:nth-child(2)::before {
   content: '';
 }

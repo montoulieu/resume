@@ -4,7 +4,7 @@
       <b-col lg="2" order-lg="2" class="nav-area ml-auto pb-3">
         <main-nav/>
       </b-col>
-      <b-col md="12" lg="9" xl="8" class="main">
+      <b-col md="12" lg="9" class="main">
         <transition name="fade">
           <router-view></router-view>
         </transition>
@@ -47,6 +47,8 @@ body {
   font-family: 'K2D', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  animation: fadein 2.5s;
 
   svg {
     position: fixed;
@@ -93,6 +95,19 @@ ul {
   opacity: 0.2;
 }
 
+.border-bottom-green {
+  border-bottom: 2px solid $color-brand;
+
+  &:nth-child(1) {
+    padding-top: 0 !important
+  }
+
+  &:nth-last-child(1) {
+    border-bottom: 0;
+  }
+}
+
+
 a {
   color: $color-brand;
   font-weight: 400;
@@ -104,6 +119,7 @@ a {
     opacity: 0.5;
   }
 }
+
 .font-weight-light {
   font-weight: 100 !important;
 }
@@ -116,4 +132,9 @@ a {
 
 ::selection { background: $color-dark; }
 ::-moz-selection { background: $color-dark;}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
 </style>

@@ -11,7 +11,7 @@ const onLoad = () => {
   svg.setAttribute('width', window.innerWidth)
   svg.setAttribute('height', window.innerHeight)
   document.querySelector('body').appendChild(svg)
-  var unitSize = (window.innerWidth + window.innerHeight) / 20
+  var unitSize = (window.innerWidth + window.innerHeight) / 12
   numPointsX = Math.ceil(window.innerWidth / unitSize) + 1
   numPointsY = Math.ceil(window.innerHeight / unitSize) + 1
   unitWidth = Math.ceil(window.innerWidth / (numPointsX - 1))

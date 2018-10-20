@@ -20,9 +20,9 @@ export default {
   data () {
     return {
       description: `
-        <p>I originally started tinkering with web technologies in the 5th grade and since then have continously pushed myself to learn the latest and greatest in the field.</p>
-        <p>While my last decade of work primarily focused on Wordpress and Laravel,<br class="d-none d-md-block"> I've shifted my focus to Vue.js and React.js for the past year and have truly enjoyed the flexability and speed they offer.</p>
-        <p>My dream job as a kid was to someday work at a rad video game dev company.<br class="d-none d-md-block"> While I haven't achieved that goal yet, I use this passion for video games to help me sharpen my skills and code the games of my dreams using Unity 3D.</p>
+        <p>I originally started tinkering with web technologies in the 5th grade and since<br class="d-none d-md-block"> then have continously pushed myself to learn the latest and greatest in the field.</p>
+        <p>While my last decade of work primarily focused on Wordpress and Laravel,<br class="d-none d-md-block"> I've shifted my focus to Vue.js and React.js for the past year and have<br class="d-none d-md-block"> truly enjoyed the flexability and speed they offer.</p>
+        <p>My dream job as a kid was to someday work at a rad video game dev company.<br class="d-none d-md-block"> While I haven't achieved that goal yet, I've used this passion for video games to help<br class="d-none d-md-block"> sharpen my coding skills and create the games of my dreams using Unity 3D.</p>
       `,
       skills: [
         {
