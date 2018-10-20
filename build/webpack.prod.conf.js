@@ -20,6 +20,11 @@ var webpackConfig = merge(baseWebpackConfig, {
       extract: true
     })
   },
+  vue: {
+    loaders: {
+      scss: 'style!css!sass'
+    }
+  },
   devtool: config.build.productionSourceMap ? '#source-map' : false,
   output: {
     path: config.build.assetsRoot,
