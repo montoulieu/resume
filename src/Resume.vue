@@ -5,7 +5,7 @@
         <main-nav/>
       </b-col>
       <b-col md="12" lg="9" class="main">
-        <transition name="fade">
+        <transition name="fade" transition-mode="in-out">
           <router-view></router-view>
         </transition>
       </b-col>
