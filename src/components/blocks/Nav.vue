@@ -1,8 +1,7 @@
 <template>
   <div class="nav-container">
-
-    <b-nav class="text-right flex-row flex-lg-column justify-content-center align-items-center align-items-lg-end pr-lg-4">
-      <img class="profile-pic rounded-circle img-fluid mb-3 d-none d-md-block mr-auto mr-lg-0 ml-lg-auto" src="../../assets/profile-pic.jpg">
+    <b-nav class="text-right flex-wrap-reverse flex-md-nowrap flex-row flex-lg-column justify-content-center align-items-center align-items-lg-end pr-lg-4">
+      <img class="profile-pic rounded-circle img-fluid mb-4 d-none d-md-block mr-auto mr-lg-0 ml-lg-auto" src="../../assets/profile-pic.jpg">
       <b-nav-item to="/" exact>About</b-nav-item>
       <b-nav-item to="skills">Skills</b-nav-item>
       <b-nav-item to="experience">Experience</b-nav-item>
@@ -32,18 +31,25 @@ export default {
 
 <style lang="scss" scoped>
 .nav-container {
-
-  .profile-pic {
-    width: 75px;
+  .nav-link {
+    position: relative;
+    padding: 0.25rem 0.5rem;
+    color: #49b884;
+    font-weight: 900;
+    outline: 0;
   }
   @media screen and (min-width: 992px){
     position: fixed;
-  }
 
-  .nav-link {
-    color: #49b884;
-    font-weight: 900;
-    padding: 0.25rem 0.5rem;
+    .nav > .nav-item .nav-link {
+      &::after {
+        content: '❮';
+        margin-left: 10px;
+        opacity: 1;
+      }
+
+      &.active { opacity: 0.5; }
+    }
   }
 }
 

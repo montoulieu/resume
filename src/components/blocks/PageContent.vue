@@ -1,7 +1,7 @@
 <template>
-  <section class="page-content mb-5">
+  <section class="page-content pb-4">
     <h1 v-if="heading" class="text-green">{{ heading }}</h1>
-    <h2 v-if="subheading" class="font-weight-light h4">{{ subheading }}</h2>
+    <h2 v-if="subheading" class="font-weight-normal h4">{{ subheading }}</h2>
     <div v-if="description" class="" v-html="description"></div>
   </section>
 </template>

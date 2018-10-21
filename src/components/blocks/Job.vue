@@ -4,15 +4,11 @@
       <div class="job-info">
         <h4 class="d-inline-block text-green font-weight-black mr-2">{{ company }}</h4>
         <h6 class="d-md-inline-block">{{ location }}</h6>
-        <h5 class="font-weight-">{{ role }}</h5>
+        <h5>{{ role }}</h5>
       </div>
       <div v-if="startDate && endDate" class="employment-dates text-green text-center ml-auto">
-        <span class="d-block">
-          {{ [endDate, "MMDDYYYY"] | moment("MMM YYYY") }}
-        </span>
-        <span class="d-block">
-          {{ [startDate, "MMDDYYYY"] | moment("MMM YYYY") }}
-        </span>
+        <h6>{{ [endDate, "MMDDYYYY"] | moment("MMM YYYY") }}</h6>
+        <h6>{{ [startDate, "MMDDYYYY"] | moment("MMM YYYY") }}</h6>
       </div>
     </header>
     <section v-if="techUsed" class="tech-used">

@@ -24,10 +24,14 @@ export default {
       profession: 'Front End Web Developer',
       age: 29, // Making this an int to force myself to update this thing every year 😅
       bio: `
-      <p>Hi I'm Pieter Montoulieu, a front end web and game developer from Miami, FL. <br class="d-none d-md-block">I moved to Denver, CO in 2014 and have been loving every moment of it.</p>
-      <p>My current interests are in VR/AR and educational game development,<br class="d-none d-md-block"> Vue.js and React.js web applications as well as iOS/macOS applications.</p>
-      <p>When I'm not coding games and websites, I'm probably in my home studio<br class="d-none d-md-block"> creating music or going out to shows in the amazing scene we have here.</p>
-      <p>This resume is currently built with Vue.js and Bootstrap 4, <br class="d-none d-md-block">feel free to <a href="https://github.com/pi-mont/resume" target="_blank">check the source out</a>.</p>
+      <p>Hi I'm Pieter Montoulieu, a front end web and game developer from Miami, FL. <br class="d-none d-md-block">
+      I moved to Denver, CO in 2013 to make cool stuff and learn as much as I can.</p>
+      <p>My current interests are in VR/AR and educational game development, <br class="d-none d-md-block">
+      Vue.js and React.js web applications as well as iOS/macOS applications.</p>
+      <p>When I'm not coding games and websites, I'm probably in my home studio <br class="d-none d-md-block">
+      creating music or going out to shows in the amazing scene we have here.</p>
+      <p>This resume was built over a weekend with Vue.js and Bootstrap 4, <br class="d-none d-md-block">
+      feel free to <a href="https://github.com/pi-mont/resume" target="_blank">check the source out</a>.</p>
       <p>Thanks for visiting,<br>Pieter 🤘</p>
       `
     }
@@ -35,6 +39,4 @@ export default {
 }
 </script>
 
-<style scoped>
-
-</style>
+<style lang="scss" scoped></style>
