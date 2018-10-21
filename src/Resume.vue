@@ -27,5 +27,5 @@ export default {
 </script>
 
 <style lang="scss">
-  // @import './assets/sass/resume.scss';
+  @import './assets/sass/resume.scss';
 </style>
