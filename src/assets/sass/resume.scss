@@ -40,19 +40,20 @@ body {
   width: 100px;
 }
 
-.fade-enter,
-.fade-leave-to {
-  position: absolute;
+.fade-enter-active,
+.fade-leave-active {
+  transition-property: opacity !important;
+  transition-duration: 0.25s !important;
 }
 
 .fade-enter-active {
-  transition-delay: 0.25s;
+  transition-delay: 0.25s !important;
 }
 
-// .fade-enter,
-// .fade-leave-active {
-//   opacity: 0;
-// }
+.fade-enter,
+.fade-leave-active {
+  opacity: 0 !important;
+}
 
 ul {
   list-style: none;
