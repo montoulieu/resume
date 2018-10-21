@@ -40,20 +40,20 @@ body {
   width: 100px;
 }
 
-.fade-enter-active,
-.fade-leave-active {
-  transition-property: opacity;
-  transition-duration: 0.25s;
-}
+// .fade-enter-active,
+// .fade-leave-active {
+//   transition-property: opacity;
+//   transition-duration: 0.25s;
+// }
 
-.fade-enter-active {
-  transition-delay: 0.25s;
-}
+// .fade-enter-active {
+//   transition-delay: 0.25s;
+// }
 
-.fade-enter,
-.fade-leave-active {
-  opacity: 0;
-}
+// .fade-enter,
+// .fade-leave-active {
+//   opacity: 0;
+// }
 
 ul {
   list-style: none;
