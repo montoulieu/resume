@@ -40,11 +40,10 @@ body {
   width: 100px;
 }
 
-// .fade-enter-active,
-// .fade-leave-active {
-//   transition-property: opacity;
-//   transition-duration: 0.25s;
-// }
+.fade-enter,
+.fade-leave-to {
+  position: absolute;
+}
 
 // .fade-enter-active {
 //   transition-delay: 0.25s;
