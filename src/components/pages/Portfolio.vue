@@ -10,7 +10,6 @@
         v-for="project in category.projects"
         :title="project.title"
         :image="project.image"
-        :link="project.link"
         :description="project.description"
         :key="project.id"
         />
