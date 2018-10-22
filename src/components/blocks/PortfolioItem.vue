@@ -1,7 +1,7 @@
 <template>
   <b-row class="portfolio-item border-bottom-green py-4">
     <b-col cols="12" md="6" order-md="2" class="">
-      <b-btn v-if="link" class="float-md-right">Link</b-btn>
+      <!-- <b-btn v-if="link" class="float-md-right">Link</b-btn> -->
       <h3 class="h5 portfolio-title text-green font-weight-black">{{ title }}</h3>
       <p class="">{{ description }}</p>
     </b-col>
