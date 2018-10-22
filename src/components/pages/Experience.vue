@@ -31,7 +31,7 @@ export default {
     return {
       description: `
         <p>I originally started tinkering with web technologies in the 5th grade and since<br class="d-none d-md-block"> then have continously pushed myself to learn the latest and greatest in the field.</p>
-        <p>Moving to Denver opened up so many more opportunities to work with agencies and land freelance clients that I never really had back in Florida.</p>
+        <p>Moving to Denver opened up so many opportunities to work with agencies and land freelance clients that I never really had back in Florida.</p>
         <p>Because of this, the last 5 years have brought exponential growth to my coding skillset and the connections I've made make me proud to live and work here. </p>
       `,
       jobs: [
