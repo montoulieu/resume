@@ -42,7 +42,7 @@ export default {
           startDate: '11092015',
           endDate: '10262018',
           techUsed: ['Wordpress', 'Laravel', 'Sage 8/9', 'BigCommerce', 'Magento', 'Hubspot'],
-          description: 'Kristy and the team at Graphik helped enable me to learn a ton on the various aspects of web development. Working together with a tightnit dev team and a few badass designers, we launched over 40 sites on Sage 8/9 in my time there and we did some pretty stellar work. Being trusted enough to try new frameworks and call shots on implementation was refreshing and will always remind me how important experimentation and culture is in the workplace.'
+          description: 'Kristy and the team at Graphik helped enable me to learn a ton on the various aspects of web development. Working together with a tightknit dev team and a few badass designers, we launched over 40 sites on Sage 8/9 in my time there and we did some pretty stellar work. Being trusted enough to try new frameworks and call shots on implementation was refreshing and will always remind me how important experimentation and culture is in the workplace.'
         },
         {
           company: 'Orange Collar Media',
