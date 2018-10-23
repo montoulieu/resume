@@ -78,7 +78,7 @@ ul {
 }
 
 
-a {
+a:not(.btn) {
   color: $color-brand;
   font-weight: 400;
   transition: opacity 0.2s ease-in-out;
@@ -98,6 +98,24 @@ a {
 }
 .text-green {
   color: $color-brand;
+}
+
+a.btn {
+  &.btn-primary,
+  &.btn-outline-primary {
+    color: $color-brand;
+    border-color: $color-brand !important;
+  }
+
+  &.btn-outline-primary{
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $color-brand !important;
+      color: $color-dark !important;
+      box-shadow: 0 0 0 0.2rem rgba($color-brand, 0.5) !important;
+    }
+  }
 }
 
 ::selection { background: $color-dark; }

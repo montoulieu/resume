@@ -2,15 +2,16 @@
   <div class="portfolio">
     <page-content :heading="$route.name" :description="description"/>
     <b-row v-for="category in work" :key="category.id" class="border-bottom-green py-3">
-      <b-col cols="12" class="pb-2">
-        <h2 class="h3 text-green font-weight-black">{{ category.category }}</h2>
+      <b-col cols="12" class="">
+        <h2 class="h3 text-green font-weight-black mb-3">{{ category.category }}</h2>
       </b-col>
-      <b-col cols="12" class="pb-4">
+      <b-col cols="12" class="">
         <portfolio-item
         v-for="project in category.projects"
-        :title="project.title"
         :image="project.image"
+        :title="project.title"
         :description="project.description"
+        :link="project.link"
         :key="project.id"
         />
       </b-col>
@@ -51,31 +52,31 @@ export default {
               title: 'Tuk It Tour Co',
               image: 'portfolio/sites/tukit.jpg',
               description: 'A Sage 9 & Wordpress site that uses CSS/SVG animations and cartoonesque parallax layers.',
-              link: ''
+              link: 'http://tukittourco.com'
             },
             {
               title: 'Metro Optical',
               image: 'portfolio/sites/metro.jpg',
               description: 'A futuristic/sci-fi design built with Sage 9 and Wordpress for Metro Optical telecom.',
-              link: ''
+              link: 'http://metrooptical.com'
             },
             {
               title: 'Muscle Sound',
               image: 'portfolio/sites/musclesound.jpg',
               description: 'A sleek design built with Sage 9 & Wordpress site for Muscle Sound.',
-              link: ''
+              link: 'http://www.musclesound.com'
             },
             {
               title: 'Symplicity',
               image: 'portfolio/sites/symplicity.jpg',
               description: 'A Sage 9 & Wordpress site for Symplicity Communications.',
-              link: ''
+              link: 'http://symplicitycom.com'
             },
             {
               title: 'Dmarie and Co.',
               image: 'portfolio/sites/dmarie.jpg',
               description: 'A Sage 9 & Wordpress site for Dmarie and Co.',
-              link: 'http://tukittourco.com'
+              link: 'http://dmarieandco.com'
             },
             {
               title: 'Knoff Group Real Estate',
@@ -87,13 +88,13 @@ export default {
               title: 'Pixel Glitch',
               image: 'portfolio/sites/pixelglitch.jpg',
               description: 'A little self promotion never hurts, a Sage 8 & Wordpress site for my music and gamedev company, Pixel Glitch LLC',
-              link: ''
+              link: 'http://pixelglitch.net'
             },
             {
               title: 'Trump Time',
               image: 'portfolio/sites/trump-time.jpg',
               description: 'Launched on the 4th of July of last year. Trump Time is a web app that allows you to generate your own fake Time magazine covers.',
-              link: ''
+              link: 'http://pi-mont.github.io/trump-time'
             }
           ]
         },
@@ -121,7 +122,7 @@ export default {
               title: 'Dark Mode Toggle',
               image: 'portfolio/apps/darkmodetoggle.gif',
               description: 'A macOS menu application that allows for easy toggling of Dark Mode in Mojave, High Sierra, Sierra and Yosemite.',
-              link: ''
+              link: 'https://gum.co/DarkModeToggle'
             }
           ]
         }
