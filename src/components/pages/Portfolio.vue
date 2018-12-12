@@ -37,6 +37,12 @@ export default {
           category: 'Web',
           projects: [
             {
+              title: 'Swagtron',
+              image: 'portfolio/sites/swagtron.jpg',
+              description: 'A Sage 9 & Woocommerce powered Wordpress site for hoverboard company, Swagtron.',
+              link: 'https://swagtron.com'
+            },
+            {
               title: 'Havok',
               image: 'portfolio/sites/havok.jpg',
               description: 'A Sage 9 & Wordpress site for Colorado thrash metal masters, Havok.',
