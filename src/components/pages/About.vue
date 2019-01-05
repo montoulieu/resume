@@ -21,10 +21,10 @@ export default {
     return {
       msg: 'Hello',
       name: 'Pieter Montoulieu',
-      profession: 'Front End Web Developer',
+      profession: 'Full Stack Developer',
       age: 29, // Making this an int to force myself to update this thing every year 😅
       bio: `
-      <p>Hi I'm Pieter Montoulieu, a front end web and game developer from Miami, FL. <br class="d-none d-md-block">
+      <p>Hi I'm Pieter Montoulieu, a full stack and indie game developer from Miami, FL. <br class="d-none d-md-block">
       I moved to Denver, CO in 2013 to make rad stuff and learn as much as I can.</p>
       <p>My current interests are in VR/AR and educational game development, <br class="d-none d-md-block">
       Vue.js and React.js web applications as well as iOS/macOS applications.</p>
