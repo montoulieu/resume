@@ -24,10 +24,10 @@ export default {
       profession: 'Full Stack Developer',
       age: 29, // Making this an int to force myself to update this thing every year 😅
       bio: `
-      <p>Hi I'm Pieter Montoulieu, a full stack and indie game developer from Miami, FL. <br class="d-none d-md-block">
+      <p>Hello! My name is Pieter Montoulieu and I'm a full stack web and game developer from Miami, FL. <br class="d-none d-md-block">
       I moved to Denver, CO in 2013 to make rad stuff and learn as much as I can.</p>
       <p>My current interests are in VR/AR and educational game development, <br class="d-none d-md-block">
-      Vue.js and React.js web applications as well as iOS/macOS applications.</p>
+      Vue/React SPAs as well as iOS/macOS applications with React Native and Swift.</p>
       <p>When I'm not coding games and websites, I'm probably in my home studio <br class="d-none d-md-block">
       creating music or going out to shows in the amazing scene we have here.</p>
       <p>This resume was built over a weekend with Vue.js and Bootstrap 4, <br class="d-none d-md-block">

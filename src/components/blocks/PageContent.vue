@@ -1,8 +1,8 @@
 <template>
-  <section class="page-content pb-4">
-    <h1 v-if="heading" class="text-green">{{ heading }}</h1>
+  <section class="page-content mb-3">
+    <h1 v-if="heading" class="text-green mb-3"><font-awesome-icon icon="terminal" class="mr-3"/>{{ heading }}</h1>
     <h2 v-if="subheading" class="font-weight-normal h4">{{ subheading }}</h2>
-    <div v-if="description" class="" v-html="description"></div>
+    <div v-if="description" class="mb-5" v-html="description"></div>
   </section>
 </template>
 
@@ -17,13 +17,11 @@ export default {
 h1 {
   letter-spacing: 2px;
 
-  @media screen and (min-width: 540px){
-    &::before {
-      content: ':// ';
-      // position: absolute;
-      // left: -3rem;
-      letter-spacing: -1px;
-    }
-  }
+  // @media screen and (min-width: 540px){
+  //   &::before {
+  //     content: '>_ ';
+  //     letter-spacing: -1px;
+  //   }
+  // }
 }
 </style>

@@ -1,6 +1,6 @@
 $color-brand: #49b884;
 $color-dark: #161219;
-$color-light: #98a5a3;
+$color-light: #d9e6e4;
 
 @import '~bootstrap/scss/bootstrap.scss';
 @import url('https://fonts.googleapis.com/css?family=K2D:100,300,400,500,700,800');
@@ -22,7 +22,7 @@ body {
 
   animation: fadein 2.5s;
 
-  svg {
+  > svg {
     position: fixed;
     top: 0;
     z-index: 1;
@@ -77,6 +77,10 @@ ul {
   }
 }
 
+.bg-dark {
+  background-color: $color-dark !important;
+}
+
 
 a:not(.btn) {
   color: $color-brand;
@@ -93,21 +97,31 @@ a:not(.btn) {
 .font-weight-light {
   font-weight: 100 !important;
 }
+
 .font-weight-black {
   font-weight: 900;
 }
+
 .text-green {
   color: $color-brand;
 }
 
 a.btn {
-  &.btn-primary,
-  &.btn-outline-primary {
-    color: $color-brand;
+  &.btn-primary{
+    background-color: $color-brand;
     border-color: $color-brand !important;
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: darken($color-brand,5%) !important;
+      // color: $color-light !important;
+      box-shadow: 0 0 0 0.2rem rgba($color-brand, 0.5) !important;
+    }
   }
 
   &.btn-outline-primary{
+    color: $color-brand;
+    border-color: $color-brand !important;
     &:hover,
     &:focus,
     &:active {

@@ -20,7 +20,7 @@ export default {
   data () {
     return {
       description: `
-        <p>While my last decade of work primarily focused on Wordpress and Laravel,<br class="d-none d-md-block"> I've shifted my focus to Vue.js and React.js for the past year and have<br class="d-none d-md-block"> truly enjoyed the flexability and speed they offer.</p>
+        <p>While my last decade of work has primarily focused on Wordpress and Laravel,<br class="d-none d-md-block"> I've shifted my area of focus to Vue and React for the last 2 years.</p>
         <p>As a kid, my dream job was to work for a sweet video game dev like Nintendo or Sega.<br class="d-none d-md-block"> While I haven't achieved that goal yet, I've used this passion for video games to help<br class="d-none d-md-block"> sharpen my coding skills and create the games of my dreams using Unity 3D.</p>
       `,
       skills: [
