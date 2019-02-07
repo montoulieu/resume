@@ -92,8 +92,8 @@ const randomize = () => {
 const refresh = () => {
   randomize()
 
-  for (var i = 0; i < document.querySelector('body svg').childNodes.length; i++) {
-    var polygon = document.querySelector('body svg').childNodes[i]
+  for (var i = 0; i < document.querySelector('body > svg').childNodes.length; i++) {
+    var polygon = document.querySelector('body > svg').childNodes[i]
     var animate = polygon.childNodes[0]
 
     if (animate.getAttribute('to')) {
@@ -106,7 +106,7 @@ const refresh = () => {
 }
 
 const onResize = () => {
-  document.querySelector('body svg').remove()
+  document.querySelector('body > svg').remove()
   clearTimeout(refreshTimeout)
   onLoad()
 }
