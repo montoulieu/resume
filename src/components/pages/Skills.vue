@@ -29,8 +29,16 @@ export default {
           list: ['HTML5', 'JS', 'CSS3/SCSS', 'PHP', 'Responsive Design', 'Canvas/WebGL']
         },
         {
-          heading: 'JS',
-          list: ['Vue.js', 'React', 'jQuery', 'ES6', 'Node', 'Webpack']
+          heading: 'JS: Vue',
+          list: ['Vue.js', 'Nuxt.js', 'Vuex', 'Bootstrap Vue']
+        },
+        {
+          heading: 'JS: React',
+          list: ['React', 'Redux', 'Styled Components', 'React Bootstrap']
+        },
+        {
+          heading: 'JS: Misc',
+          list: ['Axios', 'Electron', 'Express', 'ES6', 'Node', 'Webpack', 'Jest', 'jQuery']
         },
         {
           heading: 'PHP',
@@ -38,15 +46,15 @@ export default {
         },
         {
           heading: 'Wordpress',
-          list: ['Sage 8/9', 'Bedrock', 'Trellis', 'ACF Pro', 'Gutenberg', 'WPEngine', 'Kinsta']
+          list: ['Sage', 'Bedrock', 'Trellis', 'ACF Pro', 'Gutenberg', 'WPEngine', 'Kinsta']
         },
         {
           heading: 'Unity 3D',
           list: ['C#', 'UI', 'Dialogue System', 'MasterAudio', 'Playmaker', 'Bolt', 'DOTween Pro']
         },
         {
-          heading: 'Database',
-          list: ['MySQL', 'SQLite', 'MariaDB', 'Firebase']
+          heading: 'Database & Query',
+          list: ['MySQL', 'Postgres', 'SQLite', 'MariaDB', 'Firebase', 'GraphQL', 'Elasticsearch']
         },
         {
           heading: 'CLI',
@@ -60,7 +68,6 @@ export default {
           heading: 'Tools: Design ',
           list: ['Sketch', 'Photoshop', 'Illustrator', 'After Effects', 'Final Cut Pro']
         }
-
       ]
     }
   }

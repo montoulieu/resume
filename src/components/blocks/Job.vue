@@ -6,8 +6,10 @@
         <h6 class="d-md-inline-block">{{ location }}</h6>
         <h5>{{ role }}</h5>
       </div>
-      <div v-if="startDate && endDate" class="employment-dates text-green text-center ml-auto">
-        <h6>{{ [endDate, "MMDDYYYY"] | moment("MMM YYYY") }}</h6>
+      <div v-if="startDate" class="employment-dates text-green text-center ml-auto">
+
+        <h6 v-if="currentlyWorking">Present</h6>
+        <h6 v-if="!currentlyWorking">{{ [endDate, "MMDDYYYY"] | moment("MMM YYYY") }}</h6>
         <h6>{{ [startDate, "MMDDYYYY"] | moment("MMM YYYY") }}</h6>
       </div>
     </header>
@@ -27,7 +29,11 @@
 <script>
 export default {
   name: 'job',
-  props: ['company', 'location', 'role', 'startDate', 'endDate', 'techUsed', 'description']
+  props: ['company', 'location', 'role', 'startDate', 'endDate', 'techUsed', 'description', 'currentlyWorking'],
+  methods: {
+  },
+  mounted () {
+  }
 }
 </script>
 

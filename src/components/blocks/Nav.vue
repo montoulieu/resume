@@ -24,7 +24,7 @@ export default {
     return {
       phone: '239-290-4002',
       email: 'pi.mont@icloud.com',
-      githubUrl: 'https://github.com/pi-mont'
+      githubUrl: 'https://github.com/montoulieu'
     }
   }
 }

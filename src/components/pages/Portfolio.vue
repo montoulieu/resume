@@ -36,35 +36,6 @@ export default {
       description: '',
       work: [
         {
-          category: 'JS',
-          projects: [
-            {
-              title: 'Chillable Hours',
-              image: 'portfolio/js/chillable-hours.jpg',
-              description: 'Gamified time tracking with built in task management, reports and invoicing.',
-              link: 'https://git.io/chillablehours'
-            },
-            {
-              title: 'LinkEnt',
-              image: 'portfolio/js/link-ent.jpg',
-              description: 'An open-source, self-hosted, and fully customizable Linktree alternative built on Bootstrap and Vue.js for Github Pages.',
-              link: 'https://git.io/linkent'
-            },
-            {
-              title: 'Ableton Live Download Utility',
-              image: 'portfolio/js/alidu.jpg',
-              description: 'A Vue.js web app that legally downloads the desired 64-bit installer from any version of Ableton Live 10 or 9.',
-              link: 'https://git.io/alidu'
-            },
-            {
-              title: 'Trump Time',
-              image: 'portfolio/js/trump-time.jpg',
-              description: 'Trump Time is a web app that allows you to generate your own fake Time magazine covers.',
-              link: 'http://pi-mont.github.io/trump-time'
-            }
-          ]
-        },
-        {
           category: 'Wordpress',
           projects: [
             {
@@ -132,6 +103,35 @@ export default {
               image: 'portfolio/wordpress/pixelglitch.jpg',
               description: 'A little self promotion never hurts, a Sage 8 & Wordpress site for my music and gamedev company, Pixel Glitch LLC',
               link: 'http://pixelglitch.net'
+            }
+          ]
+        },
+        {
+          category: 'JS',
+          projects: [
+            {
+              title: 'Chillable Hours',
+              image: 'portfolio/js/chillable-hours.jpg',
+              description: 'Gamified time tracking with built in task management, reports and invoicing.',
+              link: 'https://montoulieu.github.io/chillable-hours'
+            },
+            {
+              title: 'LinkEnt',
+              image: 'portfolio/js/link-ent.jpg',
+              description: 'An open-source, self-hosted, and fully customizable Linktree alternative built on Bootstrap and Vue.js for Github Pages.',
+              link: 'https://montoulieu.github.io/link-ent'
+            },
+            {
+              title: 'Ableton Live Download Utility',
+              image: 'portfolio/js/alidu.jpg',
+              description: 'A Vue.js web app that legally downloads the desired 64-bit installer from any version of Ableton Live 10 or 9.',
+              link: 'http://montoulieu.github.io/ableton-live-downloader'
+            },
+            {
+              title: 'Trump Time',
+              image: 'portfolio/js/trump-time.jpg',
+              description: 'Trump Time is a web app that allows you to generate your own fake Time magazine covers.',
+              link: 'http://montoulieu.github.io/trump-time'
             }
           ]
         },

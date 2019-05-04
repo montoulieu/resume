@@ -9,19 +9,16 @@
 <script>
 export default {
   name: 'page-content',
-  props: ['heading', 'subheading', 'description']
+  props: {
+    heading: String,
+    subheading: String,
+    description: String
+  }
 }
 </script>
 
 <style lang="scss" scoped>
 h1 {
   letter-spacing: 2px;
-
-  // @media screen and (min-width: 540px){
-  //   &::before {
-  //     content: '>_ ';
-  //     letter-spacing: -1px;
-  //   }
-  // }
 }
 </style>

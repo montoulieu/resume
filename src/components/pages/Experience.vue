@@ -12,6 +12,7 @@
         :endDate="job.endDate"
         :techUsed="job.techUsed"
         :description="job.description"
+        :currentlyWorking="job.currentlyWorking"
         class="py-4"
       />
     </div>
@@ -24,8 +25,8 @@ import Job from '@/components/blocks/Job'
 export default {
   name: 'experience',
   components: {
-    'page-content': PageContent,
-    'job': Job
+    PageContent,
+    Job
   },
   data () {
     return {
@@ -35,6 +36,16 @@ export default {
         <p>Because of this, the last 5 years have brought exponential growth to my coding skillset and the connections I've made make me proud to live and work in this awesome city. </p>
       `,
       jobs: [
+        {
+          company: 'Spire Digital',
+          location: 'Denver, CO',
+          role: 'Full Stack Developer',
+          currentlyWorking: true,
+          startDate: '12172018',
+          endDate: '',
+          techUsed: ['React', 'Vue', 'Laravel', 'Wordpress', 'Sage 9'],
+          description: 'Spire Digital is such an awesome team of people. Their process and experience with many amazing clients is legendary and I feel very fortunate to be able to work with everyone here. I think I\'ll stick around. 🤓'
+        },
         {
           company: 'Graphik Creative',
           location: 'Denver, CO',
