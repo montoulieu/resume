@@ -7,11 +7,11 @@
       <b-nav-item to="experience">Experience</b-nav-item>
       <b-nav-item to="portfolio">Portfolio</b-nav-item>
       <div class="contact-area d-flex align-items-center pt-lg-4 text-green">
-        <a class="nav-link d-inline" :href="'mailto:' + email"><font-awesome-icon icon="envelope"/></a>
+        <a class="nav-link d-inline" :href="'mailto:' + email" aria-label="Email"><font-awesome-icon icon="envelope"/></a>
         <span class="d-none d-lg-inline"> | </span>
-        <a class="nav-link d-inline" :href="'tel:' + phone"><font-awesome-icon icon="mobile"/></a>
+        <a class="nav-link d-inline" :href="'tel:' + phone" aria-label="Phone"><font-awesome-icon icon="mobile"/></a>
         <span class="d-none d-lg-inline"> | </span>
-        <a class="nav-link d-inline" :href="githubUrl" target="_blank"><font-awesome-icon :icon="['fab', 'github']"/></a>
+        <a class="nav-link d-inline" :href="githubUrl" target="_blank" aria-label="GitHub"><font-awesome-icon :icon="['fab', 'github']"/></a>
       </div>
     </b-nav>
   </div>
