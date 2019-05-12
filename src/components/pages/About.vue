@@ -24,7 +24,7 @@ export default {
       profession: 'Full Stack Developer',
       age: 30, // Making this an int to force myself to update this thing every year 😅
       bio: `
-      <p>Hey there, my name is Pieter Montoulieu and I'm a full stack web and game developer from Miami, FL. <br class="d-none d-md-block">
+      <p>My name is Pieter Montoulieu and I'm a full stack web and game developer from Miami, FL. <br class="d-none d-md-block">
       I moved to Denver, CO in 2013 with the goal of coding and creating rad software and music.</p>
       <p>My current interests include:</p>
       <ul class="text-green">
