@@ -24,14 +24,18 @@ export default {
       profession: 'Full Stack Developer',
       age: 30, // Making this an int to force myself to update this thing every year 😅
       bio: `
-      <p>Hello! My name is Pieter Montoulieu and I'm a full stack web and game developer from Miami, FL. <br class="d-none d-md-block">
-      I moved to Denver, CO in 2013 to make rad stuff and learn as much as I can.</p>
-      <p>My current interests are in VR/AR and educational game development, <br class="d-none d-md-block">
-      Vue/React SPAs as well as iOS/macOS applications with React Native and Swift.</p>
+      <p>Hey there, my name is Pieter Montoulieu and I'm a full stack web and game developer from Miami, FL. <br class="d-none d-md-block">
+      I moved to Denver, CO in 2013 with the goal of coding and creating rad software and music.</p>
+      <p>My current interests include:</p>
+      <ul class="text-green">
+        <li>SPAs/PWAs with Vue & React</li>
+        <li>AR/VR experiences with Unity 3D</li>
+        <li>iOS/macOS apps with Swift</li>
+      </ul>
       <p>When I'm not coding games and websites, I'm probably in my home studio <br class="d-none d-md-block">
-      creating music or going out to shows in the amazing scene we have here.</p>
-      <p>This resume was built over a weekend with Vue.js and Bootstrap 4, <br class="d-none d-md-block">
-      feel free to <a href="https://github.com/pi-mont/resume" target="_blank">check the source out</a>.</p>
+      writing tunes or going out to live shows in the amazing music scene we have here.</p>
+      <p>This resume is built with Vue and deployed on Netlify.</p>
+      <p>Feel free to <a href="https://github.com/montoulieu/resume" target="_blank">check the source out</a>.</p>
       <p>Thanks for visiting,<br>Pieter 🤘</p>
       `
     }

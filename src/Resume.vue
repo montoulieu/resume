@@ -1,7 +1,7 @@
 <template>
   <div id="resume" class="container py-3 py-lg-5">
     <b-row>
-      <b-col lg="2" order-lg="2" class="nav-area ml-auto pb-3">
+      <b-col lg="2" order-lg="2" class="nav-area ml-auto pb-5">
         <main-nav/>
       </b-col>
       <b-col md="12" lg="9" class="main">

@@ -10,6 +10,7 @@ const onLoad = () => {
   var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
   svg.setAttribute('width', window.innerWidth)
   svg.setAttribute('height', window.innerHeight)
+  svg.setAttribute('class', 'd-print-none')
   document.querySelector('body').appendChild(svg)
   var unitSize = (window.innerWidth + window.innerHeight) / 12
   numPointsX = Math.ceil(window.innerWidth / unitSize) + 1
