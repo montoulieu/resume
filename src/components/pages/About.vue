@@ -22,7 +22,7 @@ export default {
       msg: 'Hello',
       name: 'Pieter Montoulieu',
       profession: 'Full Stack Developer',
-      age: 30, // Making this an int to force myself to update this thing every year 😅
+      age: 31,
       bio: `
       <p>My name is Pieter Montoulieu and I'm a full stack web and game developer from Miami, FL. <br class="d-none d-md-block">
       I moved to Denver, CO in 2013 with the goal of coding and creating rad software and music.</p>
